@@ -11,7 +11,7 @@ First, build from source
 make
 ```
 
-SwiftCompilationDatabase relies on the parseable output feature of Swift. Simply run the swift compiler with parseable output enabled ( `-parseable-output`, and send the result to SwiftCompilationDatabase.
+SwiftCompilationDatabase relies on the parseable output feature of Swift. Simply run the swift compiler with parseable output enabled ( `-parseable-output` ), and send the result to SwiftCompilationDatabase.
 
 In practice, this means doing a clean build so all of the frontend invocations are recorded into the database.
 
